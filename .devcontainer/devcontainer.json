@@ -1,7 +1,9 @@
 {
     "name": "EPAWM",
-    "build": { "dockerfile": "Dockerfile" },
-    "postCreateCommand": "uv sync --locked --all-groups",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "junkben",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -10,8 +12,8 @@
                 "eamodio.gitlens"
             ],
             "settings": {
-                "python.defaultInterpreterPath": "/workspaces/.venv/bin/python",
-                "python.terminal.activateEnvironment": false
+                "python.defaultInterpreterPath": "/home/junkben/.venv/bin/python",
+                "python.terminal.activateEnvironment": true
             }
         }
     }
