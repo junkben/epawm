@@ -7,9 +7,10 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-python.python",
-                "charliermarsh.ruff",
-                "eamodio.gitlens"
+                "charliermarsh.ruff",           // Ruff
+                "eamodio.gitlens",              // GitLens
+                "ms-python.python",             // Python
+                "mutantdino.resourcemonitor"    // Resource Monitor
             ],
             "settings": {
                 "python.defaultInterpreterPath": "/home/junkben/.venv/bin/python",
