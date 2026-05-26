@@ -1,0 +1,12 @@
+[project]
+name = "epawm"
+version = "0.1.0"
+description = "Example Python Application With Microservices"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.136.1",
+]
+
+[tool.fastapi]
+entrypoint = "src.main:app"

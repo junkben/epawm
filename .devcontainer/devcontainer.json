@@ -1,0 +1,21 @@
+{
+    "name": "EPAWM",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "junkben",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "charliermarsh.ruff",           // Ruff
+                "eamodio.gitlens",              // GitLens
+                "ms-python.python",             // Python
+                "mutantdino.resourcemonitor"    // Resource Monitor
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/home/junkben/.venv/bin/python",
+                "python.terminal.activateEnvironment": true
+            }
+        }
+    }
+}
